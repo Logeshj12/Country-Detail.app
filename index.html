@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+ 
+<body>
+    <video autoplay mut7601656-hd_1920_1080_25fps.mp4ed loop playsinline>
+        <source src="/7601656-hd_1920_1080_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+
+    <section class="bg">   
+
+        <form onsubmit="getData(event)">
+            <input type="text" placeholder="Search Country" class="input" id="input" >
+            <button class="btn"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+        </form>
+
+        <div class="container-1">
+            <h1 class="capital" id="capital">Capital</h1>
+            <p class="region" id="region">Region</p>
+            
+        </div>
+        <div class="container-2">
+            <h1 class="country" id="country">Country</h1><br><br><br>
+            <img src="" alt="" class="flag" id="flag">
+        </div>
+
+
+
+        <div class="container-3">
+            <h1 class="official" id="official">Official Name</h1>
+            <div class="nameList" id="nameList">
+            <li></li>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
